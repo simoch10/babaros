@@ -7,7 +7,7 @@ const { ApplicationCommandType, ApplicationCommandOptionType, PermissionsBitFiel
 module.exports = class Play extends Command {
 	constructor(client) {
 		super(client, {
-			name: 'play',
+			name: 'p',
 			description: {
 				content: 'Plays a song or playlist (defaults to Soundcloud).',
 				usage: '<search query>',
